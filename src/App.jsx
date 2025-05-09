@@ -1,12 +1,16 @@
 import './App.css'
+import ProfileInfo from './components/ProfileInfo'
 
-import Counter from './Counter'
 
 function App() {
 
   return (
     <>
-      <Counter />
+      <div style={{ display: 'flex', flexDirection: 'column', }}>
+        <ProfileInfo />
+
+      </div>
+
     </>
   )
 }
