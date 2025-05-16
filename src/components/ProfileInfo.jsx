@@ -1,3 +1,5 @@
+import Avatar from "./Avatar"
+
 export default function ProfileInfo() {
 
     const user = {
@@ -27,8 +29,3 @@ export default function ProfileInfo() {
     )
 }
 
-function Avatar({ user }) {
-    return (
-        <img src={user.avatar} alt={user.alt} style={user.theme} />
-    )
-}
