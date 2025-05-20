@@ -32,6 +32,9 @@ const users = [{
 export default function UsersListItem() {
     const items = users.map((user) => {
         return <Fragment key={user.id}>
+            {/* Add lines between elements */}
+            {user.id > 0 && <hr />}
+
             <div style={{ display: 'flex', flexDirection: "row" }}>
                 <Avatar user={user} />
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', }}>

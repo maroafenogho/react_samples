@@ -2,9 +2,7 @@ export default function ShoppingList() {
     return (
         <section>
             <h2>Shopping List</h2>
-            <ul>
-
-            </ul>
+            <ListItem isPacked={true} item={Pop} />
         </section>
     )
 
